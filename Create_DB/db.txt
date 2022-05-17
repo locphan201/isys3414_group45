@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS Rate;
 SET FOREIGN_KEY_CHECKS = 1;
 -- Create Customers table --
 CREATE TABLE Customers (cID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, cname VARCHAR(100), cphone VARCHAR(11), caddress VARCHAR(255), cemail VARCHAR(50), cpwd VARCHAR(20));
-INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Imani Rose','7534872145','614-8616 Hendrerit Road','facilisis.suspendisse@protonmail.edu','IQC39HOT7XK');
+INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Imani Rose','clone','614-8616 Hendrerit Road','facilisis.suspendisse@protonmail.edu','1');
 INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Lavinia Johns','7475211578','336-2796 Enim Rd.','velit@google.edu','SHX53XOK1YR');
 INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Nigel Norman','7128096686','352-2595 Curabitur Street','feugiat.sed.nec@yahoo.edu','YLA85MLB2SV');
 INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Genevieve Mcclain','8331769937','Ap #500-9940 Risus Rd.','varius.nam.porttitor@hotmail.net','FOD64OLR8RV');
@@ -82,7 +82,7 @@ INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Carissa B
 INSERT INTO Customers (cname, cphone, caddress, cemail, cpwd) VALUES ('Shelly Steele','4284307332','666-5008 Luctus Rd.','et@google.org','EBH07RYM3FR');
 -- Create Staff table --
 CREATE TABLE Staffs (sID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY, sname VARCHAR(100), sphone VARCHAR(11), salary INT, semail VARCHAR(50), sposition VARCHAR(10), spwd VARCHAR(20));
-INSERT INTO Staffs (sname, sphone, salary, semail, sposition, spwd) VALUES ('Kevin O connor','8424128426','11','pede.ac@hotmail.org','Sale','ERI68FBV6QT');
+INSERT INTO Staffs (sname, sphone, salary, semail, sposition, spwd) VALUES ('Kevin O connor','clone','11','pede.ac@hotmail.org','Sale','1');
 INSERT INTO Staffs (sname, sphone, salary, semail, sposition, spwd) VALUES ('Charles Sharpe','7983144279','13','eget.mollis@yahoo.edu','Sale','HNY63XLH6GH');
 INSERT INTO Staffs (sname, sphone, salary, semail, sposition, spwd) VALUES ('Josiah Glover','9783789072','17','integer@aol.net','Clerk','ULB40EBO4RV');
 INSERT INTO Staffs (sname, sphone, salary, semail, sposition, spwd) VALUES ('Gareth Porter','4865516703','17','mauris.non@protonmail.net','Sale','BGG22RED2WW');
